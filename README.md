@@ -36,6 +36,9 @@ If that succeeds, you should be able to [open a local page](http://localhost:500
 The **go.bat** and **bye.bat** allow you to quickly enter and leave the **virtualenv**.
 
 -----------
+**Note**: this initial version is taken directly from [Miguel Grinberg's example](https://github.com/miguelgrinberg/Flask-SocketIO). The goal was to get it going, and then see if it could be launched on Heroku.
+
+-----------
 # Run Locally #
 
 1. Setup virtualenv
@@ -86,3 +89,4 @@ Log onto Heroku.com, then follow the instructions to connect to your github repo
 Notes
 -------------
 * When you change **main.py**, Flask's automatic refresh doesn't work. You have to kill it and restart it to see the results. The refresh only seems to work on templates.
+* Here's information from Heroku on [using websockets with python](https://devcenter.heroku.com/articles/python-websockets).
