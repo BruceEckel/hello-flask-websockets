@@ -1,4 +1,4 @@
-Getting Started with Python on Heroku
+Websockets in Flask on Heroku
 =====================================
 (Adapted from [https://github.com/jamesward/hello-python-flask](https://github.com/jamesward/hello-python-flask))
 
@@ -17,6 +17,8 @@ If this gives you an error message, run:
     pip install virtualenv
 -----------------
 # Quick Start on Windows #
+
+(So far, only tested on Windows 8).
 
 To experiment locally on Windows (before deploying on Heroku) I've gone through the various thrashings-around and tried to capture and simplify things.
 
