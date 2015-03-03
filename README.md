@@ -33,7 +33,7 @@ And then be ready to start the app:
 
 		python main.py
 
-If that succeeds, you should be able to [open a local page](http://localhost:5000) and see the results.
+If that succeeds, you should be able to <a href="http://localhost:5000" target="_blank">open a local page</a> and see the results.
 
 The **go.bat** and **bye.bat** allow you to quickly enter and leave the **virtualenv**.
 
@@ -65,9 +65,9 @@ The **go.bat** and **bye.bat** allow you to quickly enter and leave the **virtua
 
         python main.py
 
-5. Test out the app
+5. Test out the app:
 
-    [http://localhost:5000](http://localhost:5000)
+    <a href="http://localhost:5000" target="_blank">Open a local page</a> and see the results.
 
 
 Run on Heroku
