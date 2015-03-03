@@ -18,7 +18,7 @@ If this gives you an error message, run:
 -----------------
 # Quick Start on Windows #
 
-(So far, only tested on Windows 8).
+(Tested on Windows 7 and Windows 8).
 
 To experiment locally on Windows (before deploying on Heroku) I've gone through the various thrashings-around and tried to capture and simplify things.
 
