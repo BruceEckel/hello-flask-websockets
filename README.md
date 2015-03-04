@@ -4,7 +4,7 @@ Websockets in Flask on Heroku
 
 Some of the libraries involved here are only for Python 2.7, so you must first [install that version of Python](https://www.python.org/downloads/).
 
-Now, make sure you have the latest version of [pip](https://pip.pypa.io/en/latest/user_guide.html):
+Although the most recent versions of Python do install **pip**, for some reason it's an old version. To make sure you have the latest version of [pip](https://pip.pypa.io/en/latest/user_guide.html):
 
     python -m pip install -U pip
 
