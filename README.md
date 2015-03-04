@@ -90,6 +90,8 @@ Log onto Heroku.com, then follow the instructions to connect to your github repo
 
 Notes
 -------------
+* [Flask main site](http://flask.pocoo.org/).
+* [Flask documentation](http://flask.pocoo.org/docs/0.10/).
 * When you change **main.py**, Flask's automatic refresh doesn't work. You have to kill it and restart it to see the results. The refresh only seems to work on templates.
 * Here's information from Heroku on [using websockets with python](https://devcenter.heroku.com/articles/python-websockets).
 * Here are lots of [prebuilt wheel binaries](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
@@ -100,5 +102,6 @@ Notes
 * [Miguel Grinberg's tutorial](http://blog.miguelgrinberg.com/post/easy-websockets-with-flask-and-gevent).
 * If you run [**pip freeze**](https://pip.pypa.io/en/latest/reference/pip_freeze.html) once everything is running (inside a virtualenv so you don't get anything that isn't necessary for your project), you can redirect the results right into your **requirements.txt**.
 * If you deploy to Heroku and it doesn't work you should [view the logs](https://devcenter.heroku.com/articles/getting-started-with-python#view-logs).
-* [Virtualenvwrapper](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvwrapper) is designed to make virtualenv easier to use.
+* [Virtualenvwrapper](http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvwrapper) is designed to make virtualenv easier to use. However, it's designed for *nix-based systems.
+* 
 
