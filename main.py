@@ -106,8 +106,8 @@ def test_disconnect():
 # if __name__ == '__main__':
 #     socketio.run(app)
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.host = '0.0.0.0'
-    app.port = port
+    # port = int(os.environ.get("PORT", 5000))
+    app.config['HOST'] = '0.0.0.0'
+    app.config['PORT'] = int(os.environ.get("PORT", 5000))
     socketio.run(app)
     # app.run(host='0.0.0.0', port=port)
