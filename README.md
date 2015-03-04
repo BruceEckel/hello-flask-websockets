@@ -1,10 +1,10 @@
 Websockets in Flask on Heroku
 =====================================
 <a href="http://flask.pocoo.org/"><img
-   src="http://flask.pocoo.org/static/badges/flask-project-s.png"
+   src="http://flask.pocoo.org/static/badges/flask-powered.png"
    border="0"
-   alt="a Flask project"
-   title="a Flask project"></a>
+   alt="Flask powered"
+   title="Flask powered"></a><br/>
 (With inspiration from [https://github.com/jamesward/hello-python-flask](https://github.com/jamesward/hello-python-flask))
 
 Some of the libraries involved here are only for Python 2.7, so you must first [install that version of Python](https://www.python.org/downloads/).
