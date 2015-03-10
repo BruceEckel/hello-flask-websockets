@@ -13,7 +13,7 @@
 
             //var socket = io.connect('https://' + document.domain + ':' + location.port + namespace);
             // Changing from the above line in the original example to the following allows the
-            // system to work with both https and http, and both locally and on Heroku:
+            // system to work locally with http, and on Heroku with both https and http:
             var socket = io.connect(namespace);
             socket.on('connect', function() {
                 socket.emit('my event', {data: 'I\'m connected!'});
