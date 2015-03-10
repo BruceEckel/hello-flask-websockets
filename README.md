@@ -99,7 +99,7 @@ Notes
 * Two things needed changing to make the example work on Heroku:
   1. [__main__](https://github.com/BruceEckel/hello-flask-websockets/blob/master/main.py#L106-L108) (see link for changed lines) so that the port is fetched from the environment.
   2. In the template [__index.html__](https://github.com/BruceEckel/hello-flask-websockets/blob/master/templates/index.html#L14-L17) (see link for changed lines), change to using **namespace** by itself. This allows the
-  system to work with both https and http, and both locally and on Heroku.
+  system to work with http locally, and both https and http on Heroku.
 * When you change **main.py**, Flask's automatic refresh doesn't work. You have to kill it and restart it to see the results. The refresh only seems to work on templates.
 * Here's information from Heroku on [using websockets with python](https://devcenter.heroku.com/articles/python-websockets).
 * Here are lots of [prebuilt wheel binaries](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
